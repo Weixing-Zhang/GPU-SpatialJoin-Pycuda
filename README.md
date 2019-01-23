@@ -17,5 +17,3 @@ This can be explained by two main reasons:
 - my limited understanding of the GCMF. 
 I developed 
 a load-balanced version as well but it did not work as well as I expected. I will be turning this in C/C++ and updating on Github.
-
-....
