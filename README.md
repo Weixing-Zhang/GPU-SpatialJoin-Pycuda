@@ -1,4 +1,4 @@
-# GPU-Spatial Join amomg polygons
+# Naive Implementation of GPU-Spatial Join amomg polygons
 
 Small GIS shape files link: https://www.dropbox.com/sh/uikipog04hcuza9/AAA8a9uGqvxAYyXmyUGdRuEda?dl=0
 
@@ -12,7 +12,10 @@ by Danial Aghajarian	(Georgia State University)
    Link: https://dl.acm.org/ft_gateway.cfm?id=2996982&ftid=1823205&dwn=1&CFID=6660507&CFTOKEN=2b565020174a2014-A8DCDDDE-D46D-C2EB-9980ED76EAED2925
 
 As a first version of GCMF in Python, its performance is not as good as the results reported in the original paper. 
-This can be explained by two main reasons: (1) Utilization of GPU; (2) my limited understanding of the GCMF. I developed 
+This can be explained by two main reasons: 
+- Utilization of GPU (I should have reduced the use of if statement in the GPU kernel function); 
+- my limited understanding of the GCMF. 
+I developed 
 a load-balanced version as well but it did not work as well as I expected. I will be turning this in C/C++ and updating on Github.
 
 ....
